@@ -13,8 +13,6 @@ The objective was to simulate these converters using **MATLAB/Simulink** and eva
 ## Tools & Tech Stack
 - MATLAB/Simulink (R2023 or later)
 - Simscape Electrical Toolbox
-- PWM control via closed-loop duty cycle modulation
-- Time-domain analysis
 ## Converters Designed
 | Type        | Input Voltage | Output Voltage        |
 |-------------|---------------|------------------------|
@@ -27,10 +25,7 @@ Each converter was modeled using:
 - Inductor
 - Capacitor
 - Voltage source
-- PWM generator (controlled duty cycle)
 ## Performance Evaluation
 Performance metrics include:
 - Output Voltage Ripple
-- Transient Response
 - Conversion Efficiency
-- Mode analysis: CCM vs. DCM
